@@ -196,7 +196,7 @@ Dự án này được cấp phép theo MIT License - xem file [LICENSE](LICENSE
 
 ## 👥 Tác giả
 
-- **Law App Team** - *Phát triển ban đầu*
+- **Nhật Trung** - *Phát triển ban đầu*
 
 ## 🙏 Lời cảm ơn
 
@@ -207,8 +207,7 @@ Dự án này được cấp phép theo MIT License - xem file [LICENSE](LICENSE
 ## 📞 Liên hệ
 
 Nếu có bất kỳ câu hỏi hoặc đề xuất nào, vui lòng liên hệ qua:
-- Email: [your-email@example.com]
-- GitHub Issues: [Tạo issue mới](https://github.com/your-repo/law-app/issues)
+- Email: [nqnhattrung2001@gmail.com]
 
 ---
 
