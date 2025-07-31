@@ -22,7 +22,7 @@ export function App() {
           <div className="mt-7 flex flex-col gap-4">
             <div className="flex justify-center">
               <div className="border rounded-sm w-fit p-2 shadow-lg">
-                <p className="text-xl font-medium">
+                <p className="text-xl font-medium text-center">
                   Hôm nay là thứ <DaysOfWeek />, ngày <TodayTimes />
                 </p>
               </div>

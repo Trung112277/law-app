@@ -18,7 +18,7 @@ export function EndDayDetention({ detentionDate, detentionDays }: EndDayDetentio
     endDate = d.toISOString().split('T')[0];
   }
   return (
-    <div className="flex flex-col gap-3">
+    <div className="flex flex-col gap-3 w-1/2">
       <h2 className="text-lg font-black">Ngày hết lệnh giam</h2>
       <Input
         id="date"

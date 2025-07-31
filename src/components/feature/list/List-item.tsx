@@ -19,14 +19,18 @@ export function ListItem({ data, onChange, onRemove }: ListItemProps) {
     }
   };
   return (
-    <li className="flex items-end gap-3 border-b pb-5 mt-3">
+    <li className="flex flex-col xl:flex-row items-center xl:items-end gap-3 border-b pb-5 mt-3 ">
       <InpuntName value={data.name} onChange={name => onChange({ name })} />
       <DangerousLevel value={data.dangerousLevel} onChange={dangerousLevel => onChange({ dangerousLevel })} />
-      <DetentionDay value={data.detentionDate} onChange={detentionDate => onChange({ detentionDate })} />
-      <DateOfAcceptance value={data.dateOfAcceptance} onChange={dateOfAcceptance => onChange({ dateOfAcceptance })} />
-      <CoutdayOfDetention value={data.detentionDays} onChange={detentionDays => onChange({ detentionDays })} />
-      <EndDayDetention detentionDate={data.detentionDate} detentionDays={data.detentionDays} />
-      <button className="px-2 py-1 bg-red-500 text-white rounded" onClick={handleRemove}>Xoá</button>
+        <div className='flex gap-3 w-full'>
+        <DetentionDay value={data.detentionDate} onChange={detentionDate => onChange({ detentionDate })} />
+        <DateOfAcceptance value={data.dateOfAcceptance} onChange={dateOfAcceptance => onChange({ dateOfAcceptance })} />
+        </div>
+        <div className='flex gap-3 w-full'>
+        <CoutdayOfDetention value={data.detentionDays} onChange={detentionDays => onChange({ detentionDays })} />
+        <EndDayDetention detentionDate={data.detentionDate} detentionDays={data.detentionDays} />
+        </div>
+      <button className="px-2 py-1 bg-red-500 text-white rounded " onClick={handleRemove}>Xoá</button>
     </li>
   );
 }

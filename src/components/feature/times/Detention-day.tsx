@@ -33,7 +33,7 @@ export function DetentionDay({ value, onChange }: DetentionDayProps) {
   }, [value]);
 
   return (
-    <div className="flex flex-col gap-3">
+    <div className="flex flex-col gap-3 w-1/2">
       <Label htmlFor="date" className="px-1">
         <h2 className='text-lg font-black'>Ngày Tạm Giam</h2>
       </Label>

@@ -15,10 +15,10 @@ interface DangerousLevelProps {
 
 export function DangerousLevel({ value, onChange }: DangerousLevelProps) {
   return (
-    <div className="flex flex-col gap-3">
+    <div className="flex flex-col gap-3 w-full xl:w-[280px]">
       <h2 className="text-lg font-black">Mức độ nguy hiểm</h2>
       <Select value={value} onValueChange={onChange}>
-        <SelectTrigger className='w-[280px]' >
+        <SelectTrigger >
           <SelectValue placeholder="Chọn mức độ nguy hiểm" />
         </SelectTrigger>
         <SelectContent>

@@ -7,13 +7,13 @@ interface CoutdayOfDetentionProps {
 
 export function CoutdayOfDetention({ value, onChange }: CoutdayOfDetentionProps) {
   return (
-    <div className="flex flex-col gap-3">
+    <div className="flex flex-col gap-3 w-1/2">
       <h2 className="text-lg font-black">Số ngày tạm giam</h2>
       <Input
         type="number"
         name="number"
         placeholder="Số ngày tạm giam"
-        className="max-w-[300px] text-center"
+        className="w-full text-center"
         min="0"
         value={value === 0 ? '' : value}
         onChange={e => {

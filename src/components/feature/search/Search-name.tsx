@@ -1,9 +1,8 @@
 import { Input } from '@/components/ui/input';
-import { useState } from 'react';
 
 export function SearchName({ value, onChange }: { value: string; onChange: (v: string) => void }) {
   return (
-    <div className="flex flex-col gap-3 w-[500px]">
+    <div className="flex flex-col gap-3 w-full xl:w-[500px]">
       <Input
         id="search-name"
         type="text"
